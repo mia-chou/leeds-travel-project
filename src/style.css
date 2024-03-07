@@ -1,3 +1,4 @@
+
 body {
   font-family: "Poppins", sans-serif;
   background: #272044;
@@ -18,7 +19,7 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -34,13 +35,23 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 .card {
   background: white;
   margin: 30px 0;
 }
 
-
-
+.card-header.grid {
+  grid-gap: 0;
+}
 
 .card-body {
   padding: 30px;
@@ -60,7 +71,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #B0C4DE;
+  background-color: #007FFF;
   text-decoration: none;
 }
 
@@ -71,10 +82,8 @@ section {
 }
 
 section.secondary {
-  background: #F0F8FF;
+  background: azure;
 }
-
-
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -133,7 +142,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #333333;
+  color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -145,8 +154,6 @@ main h3 {
   color: #272044;
   margin: 0;
 }
-
-
 
 main h4 {
   font-weight: 700;
@@ -179,7 +186,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("../images/Ilkley\ Moor.png");
+    url("../images/out\ of\ the\ woods.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -238,7 +245,38 @@ footer a {
   section {
     padding: 30px;
   }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
