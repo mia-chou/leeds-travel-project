@@ -183,10 +183,10 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(39, 32, 68, 0.6),
+      rgba(39, 32, 68, 0.6)
     ),
-    url("../images/out\ of\ the\ woods.jpg");
+    url("../images/Ilkley\ Moor.png");
 
   background-repeat: no-repeat;
   background-size: cover;
