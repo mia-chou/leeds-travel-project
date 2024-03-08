@@ -71,8 +71,17 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #007FFF;
+  background-color: #5A7EBB;
   text-decoration: none;
+}
+
+
+a.btn:hover  {
+background-color:white;
+color: #5A7EBB;
+cursor: pointer;
+transition: ease-in-out 150ms;
+
 }
 
 section {
@@ -82,7 +91,7 @@ section {
 }
 
 section.secondary {
-  background: azure;
+  background: #B8CCEC;
 }
 
 header {
@@ -256,7 +265,43 @@ footer a {
 }
 
 
+section.activities {
+  background-color: #F0EBF7;
+}
 
+
+.btn-activities {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color:#7F7FDA;
+  text-decoration: none
+}
+
+
+
+.btn-activities:hover {
+  background-color:white;
+  color: #7F7FDA;
+  cursor: pointer;
+  transition: ease-in-out 150ms;
+}
+
+
+
+section.gallery {
+  background-color: #F3E4EB;
+  padding: 40px;
+}
+.grid-2-columns {
+  background-color: #FFF8ED;
+}
 
 
 
